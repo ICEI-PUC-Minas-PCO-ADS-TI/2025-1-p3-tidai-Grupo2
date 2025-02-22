@@ -187,9 +187,41 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|João Silva          | Receber notificações automáticas   |Acompanhar meu progresso financeiro de  |
+                     |  sobre dicas de mercado financeiro | forma fidedigna que me permita tomada  |
+                     | e o status das minhas organizações | de decisão baseadas nos gráficos e     |
+                     | e operações financeiras.           | estatísticas sobre meus recursos       |
+                     |                                    | financeiros.                           |
+					                                                                               
+Maria Fernandes	     | Integrar a gestão das finanças     |  Traçar estratégias para redução de    |
+                     |  pessoais e empresariais com       |  custos e planejar investimento mais   |
+					           |   informações em dashboards        |  rápida do cenário financeiro.         |
+					           |  intuitivos que ofereçam uma visão |                                        |
+                     |  robustos.                         |                                        |
+					           |	                                  |                                        |
+                                           
+                     
+Lucas Oliveira	     | Receber conteúdos avançados sobre  |	Analise de relatórios automatizadas    |                  
+                     | estratégias de investimentos e     | com sugestões personalizadas para      |
+                     | gestão tributária.                 | guiar em ações e facilitar o           |
+                     |                                    | direcionamento nas decisões.           |
+                     |                                    |                                        |
+                     |                                    |                                        |
 
+Ana Ribeiro	         | Interfaces modernas e fáceis de    | Ganhar experiência e perder medo de    |
+                     | usar, informações sobre            | tomar decisões financeiras que possam  |
+                     | investimentos acessíveis e métodos | comprometer o cotidiano.	           |
+                     | de aplicações personalizadas.      |                                        |
+                     |                                    |                                        |
+                     |                                    |                                        |
+
+
+Carla Souza	         | Receber conteúdos sobre planejame- |	Aprender analisar renda futura e       |
+                     | nto financeiro para aposentadoria  | reduzir/evitar imprevistos financeiros.|
+                     | e ferramentas que simulam cenários |                                        |
+                     | futuros.                           |                                        |
+                     |                                    |                                        |
+                     |                                    |                                        |
 Apresente aqui as histórias de usuários que são relevantes para o projeto da sua solução. As histórias de usuários consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuários por contexto, para facilitar consultas recorrentes a esta parte do documento.
 
 > **Links úteis**:
@@ -205,10 +237,16 @@ As tabelas a seguir apresentam os requisitos funcionais e não funcionais que de
 
 ### Requisitos funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID    | Descrição do Requisito                                                                 | Prioridade |
+|-------|-----------------------------------------------------------------------------------------|------------|
+| RF-001| Permitir que o usuário cadastre informações financeiras                                 | ALTA       |
+| RF-002| Emitir um relatório e gráfico dos gastos mensais                                        | MÉDIA      |
+| RF-003| O sistema deve permitir que os usuários façam login utilizando e-mail e senha           | ALTA       |
+| RF-004| Deve haver suporte para recuperação de senha por meio de e-mail.                        | ALTA       |
+| RF-005| O sistema deve permitir que os usuários editem as informações após cadastradas, conforme mudanças na rotina | ALTA       |
+| RF-006| O sistema deve exibir gráficos contendo cálculos estatísticos baseados nas informações cadastradas do usuário | ALTA       |
+| RF-007| O sistema deve mostrar opções de conteúdos financeiros como Mercado de Capitais e investimentos padrão | MÉDIA      |
+| RF-008| O sistema deve sugerir estratégias para investimentos a partir do dinheiro que sobrar ao fim do mês, para que o usuário decida onde investir | ALTA       |
 
 ### Requisitos não funcionais
 
