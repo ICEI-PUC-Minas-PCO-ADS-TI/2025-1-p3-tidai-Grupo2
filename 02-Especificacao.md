@@ -185,43 +185,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|João Silva          | Receber notificações automáticas   |Acompanhar meu progresso financeiro de  |
-                     |  sobre dicas de mercado financeiro | forma fidedigna que me permita tomada  |
-                     | e o status das minhas organizações | de decisão baseadas nos gráficos e     |
-                     | e operações financeiras.           | estatísticas sobre meus recursos       |
-                     |                                    | financeiros.                           |
-					                                                                               
-Maria Fernandes	     | Integrar a gestão das finanças     |  Traçar estratégias para redução de    |
-                     |  pessoais e empresariais com       |  custos e planejar investimento mais   |
-					           |   informações em dashboards        |  rápida do cenário financeiro.         |
-					           |  intuitivos que ofereçam uma visão |                                        |
-                     |  robustos.                         |                                        |
-					           |	                                  |                                        |
-                                           
-                     
-Lucas Oliveira	     | Receber conteúdos avançados sobre  |	Analise de relatórios automatizadas    |                  
-                     | estratégias de investimentos e     | com sugestões personalizadas para      |
-                     | gestão tributária.                 | guiar em ações e facilitar o           |
-                     |                                    | direcionamento nas decisões.           |
-                     |                                    |                                        |
-                     |                                    |                                        |
-
-Ana Ribeiro	         | Interfaces modernas e fáceis de    | Ganhar experiência e perder medo de    |
-                     | usar, informações sobre            | tomar decisões financeiras que possam  |
-                     | investimentos acessíveis e métodos | comprometer o cotidiano.	           |
-                     | de aplicações personalizadas.      |                                        |
-                     |                                    |                                        |
-                     |                                    |                                        |
-
-
-Carla Souza	         | Receber conteúdos sobre planejame- |	Aprender analisar renda futura e       |
-                     | nto financeiro para aposentadoria  | reduzir/evitar imprevistos financeiros.|
-                     | e ferramentas que simulam cenários |                                        |
-                     | futuros.                           |                                        |
-                     |                                    |                                        |
-                     |                                    |                                        |
+EU COMO... PERSONA	QUERO/PRECISO ... FUNCIONALIDADE	PARA ... MOTIVO/VALOR
+João Silva	Receber notificações automáticas sobre dicas de mercado financeiro e o status das minhas organizações e operações financeiras.	Acompanhar meu progresso financeiro de forma fidedigna que me permita tomada de decisão baseadas nos gráficos e estatísticas sobre meus recursos financeiros.
+Maria Fernandes	Integrar a gestão das finanças pessoais e empresariais com informações em dashboards intuitivos que ofereçam uma visão robusta.	Traçar estratégias para redução de custos e planejar investimento mais rápida do cenário financeiro.
+Lucas Oliveira	Receber conteúdos avançados sobre estratégias de investimentos e gestão tributária.	Análise de relatórios automatizados com sugestões personalizadas para guiar em ações e facilitar o direcionamento nas decisões.
+Ana Ribeiro	Interfaces modernas e fáceis de usar, informações sobre investimentos acessíveis e métodos de aplicações personalizadas.	Ganhar experiência e perder medo de tomar decisões financeiras que possam comprometer o cotidiano.
+Carla Souza	Receber conteúdos sobre planejamento financeiro para aposentadoria e ferramentas que simulam cenários futuros.	Aprender a analisar renda futura e reduzir/evitar imprevistos financeiros.
 Apresente aqui as histórias de usuários que são relevantes para o projeto da sua solução. As histórias de usuários consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuários por contexto, para facilitar consultas recorrentes a esta parte do documento.
 
 > **Links úteis**:
