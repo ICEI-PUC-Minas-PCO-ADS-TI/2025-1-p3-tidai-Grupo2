@@ -20,9 +20,7 @@ A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-s
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `develop`: versão de desenvolvimento do software
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 
@@ -33,18 +31,11 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gestão de tags, merges, commits e branches é realizada. Discuta também como a gestão de issues foi feita.
 
-> **Links úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e GitHub](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Planejamento do projeto
 
 ###  Divisão de papéis
 
-> Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
+> Nosso projeto tera a seguinte distribuição:
 
 #### Sprint 1
 - _Scrum master_: AlunaX
@@ -60,18 +51,25 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ###  Quadro de tarefas
 
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme o exemplo abaixo.
+Divisão das tarefas de acordo com a sprint 
 
 #### Sprint 1
 
-Atualizado em: 21/04/2024
+Atualizado em: 23/02/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
-| AlunaX        | Introdução | 01/02/2024     | 07/02/2024 | ✔️    | 05/02/2024      |
-| AlunaZ        | Objetivos    | 03/02/2024     | 10/02/2024 | 📝    |                 |
-| AlunoY        | Histórias de usuário  | 01/01/2024     | 07/01/2005 | ⌛     |                 |
-| AlunoK        | Personas 1  |    01/01/2024        | 12/02/2005 | ❌    |       |
+|Thiago Marques | Introdução |     |semanas  | ✔️    |      |
+|Thiago Marques | Objetivos    |     | semanas | ✔️    |                 |
+|Thiago Marques | Justificativa   |     | semanas | ✔️    |   
+|Allan Junio | Público Alvo  |     | semanas | ✔️    |   |
+|Christiano da Silva|  Histórias de usuário  |     |semanas | ✔️      |                 |
+| Gabriel Henrique| Personas 1  |         | semanas | ✔️      |       |
+| Christiano da Silva| Requisitos Funcionais  |         | semanas | ✔️      |       |
+| Christiano da Silva| Requisitos Não Funcionais  |         |semanas  | ✔️      |       |
+| Luis Gustavo | Regras de Negócio  |   05/02/2025      | 1 semana | ✔️      |  11/02/2025     |
+| Kauan Maia | Diagrama de Caso de Uso  |        |  semanas | ✔️      |      |
+
 
 #### Sprint 2
 
@@ -92,33 +90,21 @@ Legenda:
 - ❌: não iniciado
 
 
-> **Links úteis**:
-> - [11 passos essenciais para implantar Scrum no seu projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
 
 ### Processo
 
-Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links úteis**:
-> - [Planejamento e gestão ágil de projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Como criar backlogs no GitHub](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial slack](https://slack.com/intl/en-br/)
+O nosso grupo adota duas metodologias ágeis, o Scrum e o Kanban, combinando-as para formar um modelo híbrido conhecido como ScrumBan. Neste modelo, utilizamos o Kanban para o gerenciamento visual e a distribuição das tarefas, permitindo um fluxo contínuo de trabalho e flexibilidade na priorização e acompanhamento das atividades. Já o Scrum é utilizado para o desenvolvimento dessas tarefas, estruturando os ciclos de trabalho em sprints e promovendo reuniões regulares de planejamento, revisão e retrospectiva. Dessa forma, ambas as metodologias são aplicadas simultaneamente pela equipe, aproveitando o que há de melhor em cada uma para otimizar a entrega de valor de forma eficiente e ágil.
 
 ### Ferramentas
 
-Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível.
-
-Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de interface                | Figma                              | http://....                            |
-| Gerenciamento do projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | Vercel                             | http://....                            |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2025-1-p3-tidai-Grupo2/tree/main                         |
+| Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2025-1-p3-tidai-Grupo2/tree/main                          |
+| Projeto de interface                | Figma                              | https://www.figma.com/design/HOKK8Z1TzB6bPkutBZjCTI/Untitled?node-id=1-2965&t=PMBLbvdI94FArAoD-0                    |
+| Projeto de interface - Userflow     | Mockplus                             | https://rp.mockplus.com/run/TwvtDUYRSm/i88ReQcp8lcps=expand&rps=expand&nav=1&ha=0&la=0&fc=1&dt=iphoneX&out=0&rt=1&as=true  
+| Gerenciamento do projeto            | GitHub Projects                    |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2025-1-p3-tidai-Grupo2/projects?query=is%3Aopen                          |
+| Hospedagem                          | Azure                           | http://....                            |
  
