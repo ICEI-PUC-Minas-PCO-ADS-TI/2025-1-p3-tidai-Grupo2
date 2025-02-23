@@ -3,7 +3,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificacao.md"> Especificação do projeto</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para abordar o problema. Inclua definições sobre os ambientes de trabalho utilizados pela equipe para desenvolver o projeto. Isso abrange a relação dos ambientes utilizados, a estrutura para a gestão do código-fonte, além da definição do processo e das ferramentas por meio dos quais a equipe se organiza (gestão de equipes).
+As metodologias adotadas pela equipe serão o Scrum e o Kanban, com o objetivo de aprimorar a organização e a colaboração. Para garantir uma comunicação eficaz, utilizaremos ferramentas de reunião online, como Microsoft Teams e WhatsApp. Encontros semanais presenciais serão realizados na faculdade para alinhar os objetivos do projeto. O versionamento do código será feito através do GitHub, enquanto o desenvolvimento e administração do código ocorrerão no Visual Studio Code.
+
+O banco de dados escolhido para o projeto é o MySQL, e para o desenvolvimento tanto do back-end quanto do front-end, trabalharemos com Node.js, HTML e CSS. A hospedagem será realizada no Azure, e os testes serão conduzidos no GitLab.
+
+Essas ferramentas foram selecionadas para assegurar o bom andamento e a qualidade do projeto.
 
 ## Relação de ambientes de trabalho
 
