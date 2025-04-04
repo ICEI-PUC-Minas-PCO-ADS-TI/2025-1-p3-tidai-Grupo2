@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Usuário</title>
+    <link rel="stylesheet" href="PerfilU.CSS">
+    <script defer src="PerfilU.js"></script>
+   
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo.CashWise.jpeg" alt="Logo Cash Wise">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Conteúdo</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="profile">
+            <div class="profile-card">
+                <img src="avatar.png" alt="Avatar do Usuário" class="avatar">
+                <h2 id="user-name">Thiago Marques</h2>
+                <p id="user-age">30 anos</p>
+                <p id="user-period">4º período</p>
+                <button id="editProfile">Editar perfil</button>
+            </div>
+            <div class="finance-stats">
+                <div class="stat-box">TOTAL DE GANHOS<br><span>R$1.890,00</span></div>
+                <div class="stat-box">TOTAL GASTOS<br><span>R$1.000,00</span></div>
+                <div class="stat-box">TOTAL INVESTIDO<br><span>R$4.000,00</span></div>
+                <div class="stat-box">GASTOS DISPONÍVEIS PARA LAZER<br><span>R$4.000,00</span></div>
+            </div>
+        </section>
+    </main>
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Editar Perfil</h2>
+            <input type="text" id="editName" placeholder="Nome">
+            <input type="number" id="editAge" placeholder="Idade">
+            <input type="text" id="editPeriod" placeholder="Período">
+            <button id="saveProfile">Salvar</button>
+        </div>
+    </div>
+</body>
+</html>
