@@ -11,7 +11,12 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
 
-![Teste Userflow](images/Userflow.png)
+![Exemplo de user flow](images/user_flow.jpg)
+
+> **Links úteis**:
+> - [User flow: o quê é e como fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
+> - [User flow vs site maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
+> - [Top 25 user flow tools & templates for smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ### Diagrama de fluxo
 
@@ -19,12 +24,8 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem, internamente, a indicação dos principais elementos de interface — tais como menus e acessos — e funcionalidades, como editar, pesquisar, filtrar e configurar, além da conexão entre esses boxes a partir do processo de interação.
 
-![Diagrama de Fluxo do Sistema](images/Diagramafluxo.png)
- 
+![Diagrama de Fluxo](images/DiagramaFluxo1.png)
 
-> **Links úteis**:
-> - [Como criar um diagrama de fluxo de usuário](https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram)
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
 
@@ -45,6 +46,20 @@ São protótipos usados no design de interface para sugerir a estrutura de um si
 
 ## Interface do sistema
 
-Visão geral da interação do usuário por meio das telas do sistema. 
+![Home](./images/Telas%20Front/home.png)
 
-> Apresente as principais interfaces da plataforma em sua versão final.
+![Login](./images/Telas%20Front/Login.png)
+
+![Cadastro](./images/Telas%20Front/Cadastro.png)
+
+![Pagiana de Usuario](./images/Telas%20Front/PaginaUsuario.png)
+
+![Pagina Usuario](./images/Telas%20Front/PaginaUsuario.png)
+
+![Perfil Usuario](./images/Telas%20Front/PerfilUsuario.png)
+
+![Conteudo](./images/Telas%20Front/Conteudo.png)
+
+![Alterar usuario ](./images/Telas%20Front/Alterar%20usuario.png)
+
+![Alterar Administrador ](./images/Telas%20Front/Alterar%20Admin.png)
