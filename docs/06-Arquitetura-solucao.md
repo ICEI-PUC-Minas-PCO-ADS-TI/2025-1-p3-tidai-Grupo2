@@ -27,61 +27,69 @@ O Modelo ER representa, por meio de um diagrama, como as entidades (coisas, obje
 
 ### Esquema relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-
-![Exemplo de um modelo relacional](images/modelo_relacional.png "Exemplo de modelo relacional.")
----
-
-> **Links úteis**:
-> - [Criando um modelo relacional - documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/12.0.0?topic=designer-creating-relational-model)
+![ER](images/Banco/ER.png)
 
 ### Modelo físico
-
-Insira aqui o script de criação das tabelas do banco de dados.
-
-Veja um exemplo:
-
-```sql
--- Criação da tabela Medico
-CREATE TABLE Medico (
-    MedCodigo INTEGER PRIMARY KEY,
-    MedNome VARCHAR(100)
+CREATE DATABASE BD_CASHWISE;
+USE BD_CASHWISE;
+CREATE TABLE USUARIO (
+    ID_USUARIO INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    NOME_USUARIO VARCHAR(256) NOT NULL,
+    EMAIL_USUARIO VARCHAR(256) NOT NULL UNIQUE,
+    SENHA_USUARIO VARCHAR(255) NOT NULL,
+    ENDIVIDADO BOOLEAN NOT NULL,
+    DATA_CRIACAO TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Criação da tabela Paciente
-CREATE TABLE Paciente (
-    PacCodigo INTEGER PRIMARY KEY,
-    PacNome VARCHAR(100)
-);
+CREATE TABLE CONTEUDO (
+    ID_CONTEUDO INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    TITULO_CONTEUDO VARCHAR(256) NOT NULL,
+    DESCRICAO_CONTEUDO TEXT NOT NULL,
+    TIPO_CONTEUDO ENUM('INVESTIMENTO','ECONOMIA','VALORIZACAO') NOT NULL,
+    NIVEL_CONTEUDO ENUM('INICIANTE','INTERMEDIARIO','AVANCADO') NOT NULL,
+    DATA_PUBLICACAO TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    USUARIOFK INT NOT NULL,
+    FOREIGN KEY (USUARIOFK) REFERENCES USUARIO (ID_USUARIO)
+    ON DELETE CASCADE 
+    ON UPDATE CASCADE
+    );
 
--- Criação da tabela Consulta
-CREATE TABLE Consulta (
-    ConCodigo INTEGER PRIMARY KEY,
-    MedCodigo INTEGER,
-    PacCodigo INTEGER,
-    Data DATE,
-    FOREIGN KEY (MedCodigo) REFERENCES Medico(MedCodigo),
-    FOREIGN KEY (PacCodigo) REFERENCES Paciente(PacCodigo)
-);
+CREATE TABLE META_FINANCEIRA (
+	ID_META INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    NOME_META VARCHAR (56) NOT NULL UNIQUE ,
+    VALOR_META DOUBLE NOT NULL,
+    PRAZO_META DATE NOT NULL,
+    STATUS_META ENUM ('SIGA EM FRENTE', ' QUASE LA', 'CONCLUIDO') NOT NULL,
+    USUARIOFK INT NOT NULL,
+    FOREIGN KEY (USUARIOFK) REFERENCES USUARIO (ID_USUARIO)
+    ON DELETE CASCADE 
+    ON UPDATE CASCADE
+    );
 
--- Criação da tabela Medicamento
-CREATE TABLE Medicamento (
-    MdcCodigo INTEGER PRIMARY KEY,
-    MdcNome VARCHAR(100)
-);
+CREATE TABLE TRANSACAO (
+	ID_TRANSACAO INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    DESCRICAO_CONT TEXT NOT NULL,
+    VALOR_TRANS DOUBLE NOT NULL,
+    TIPO_TRANS ENUM ('RECEITA' , 'DESPESA') NOT NULL,
+    DATA_TRANS TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    USUARIOFK INT NOT NULL,
+    FOREIGN KEY (USUARIOFK) REFERENCES USUARIO (ID_USUARIO)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
+    );
+    
+CREATE TABLE DASHBOARD (
+ID_DASH INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+USUARIOFK INT NOT NULL,
+SALDOTOTAL_DASH DOUBLE NOT NULL, 
+GASTOSMENSAIS_DASH DOUBLE NOT NULL,
+INVESTIMENTOTOTAIS_DASH DOUBLE NOT NULL, 
+FOREIGN KEY (USUARIOFK) REFERENCES USUARIO (ID_USUARIO)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE
+    );
 
--- Criação da tabela Prescricao
-CREATE TABLE Prescricao (
-    ConCodigo INTEGER,
-    MdcCodigo INTEGER,
-    Posologia VARCHAR(200),
-    PRIMARY KEY (ConCodigo, MdcCodigo),
-    FOREIGN KEY (ConCodigo) REFERENCES Consulta(ConCodigo),
-    FOREIGN KEY (MdcCodigo) REFERENCES Medicamento(MdcCodigo)
-);
-```
-Esse script deverá ser incluído em um arquivo .sql na pasta [de scripts SQL](../src/db).
+ [script Sql](../src/db/mdf_Sql).
 
 
 ## Tecnologias
