@@ -30,6 +30,7 @@ O Modelo ER representa, por meio de um diagrama, como as entidades (coisas, obje
 ![ER](images/Banco/ER.png)
 
 ### Modelo físico
+---
 CREATE DATABASE BD_CASHWISE;
 USE BD_CASHWISE;
 CREATE TABLE USUARIO (
@@ -88,7 +89,7 @@ FOREIGN KEY (USUARIOFK) REFERENCES USUARIO (ID_USUARIO)
     ON DELETE CASCADE
     ON UPDATE CASCADE
     );
-
+---
  [script Sql](../src/db/mdf_Sql).
 
 
