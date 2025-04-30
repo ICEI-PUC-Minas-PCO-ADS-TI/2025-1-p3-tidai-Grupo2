@@ -89,7 +89,7 @@ FOREIGN KEY (USUARIOFK) REFERENCES USUARIO (ID_USUARIO)
     ON DELETE CASCADE
     ON UPDATE CASCADE
     );
----
+```
  [script Sql](../src/db/mdf_Sql).
 
 
