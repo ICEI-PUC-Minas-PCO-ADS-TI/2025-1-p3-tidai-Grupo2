@@ -30,7 +30,7 @@ O Modelo ER representa, por meio de um diagrama, como as entidades (coisas, obje
 ![ER](images/Banco/ER.png)
 
 ### Modelo físico
----
+```sql
 CREATE DATABASE BD_CASHWISE;
 USE BD_CASHWISE;
 CREATE TABLE USUARIO (
