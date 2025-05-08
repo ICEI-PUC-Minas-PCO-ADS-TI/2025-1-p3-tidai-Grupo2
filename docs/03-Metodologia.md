@@ -76,6 +76,7 @@ Atualizado em: 23/02/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
+<<<<<<< HEAD
 |Thiago Marques | Introdução |  16/02/2025   | 1 semana  | ✔️    |  26/02/2025    |
 |Thiago Marques | Objetivos    |  16/02/2025   | 1 semana | ✔️    | 26/02/2025                |
 |Luis Gustavo | Justificativa   |  05/02/2025    | 1 semana | ✔️    | 11/02/2025  |
@@ -86,6 +87,18 @@ Atualizado em: 23/02/2025
 | Christiano da Silva| Requisitos Não Funcionais  |   18/02/2025      |semanas  | ✔️      |    22/02/2025   |
 | Luis Gustavo | Regras de Negócio  |   05/02/2025      | 1 semana | ✔️      |  11/02/2025     |
 | Kauan Maia | Diagrama de Caso de Uso  |  20/02/2025      | 1 semana | ✔️      |  23/02/2025    |
+=======
+|Thiago Marques | Introdução |     |semanas  | ✔️    |      |
+|Thiago Marques | Objetivos    |     | semanas | ✔️    |                 |
+|Thiago Marques | Justificativa   |     | semanas | ✔️    |   
+|Allan Junio | Público Alvo  |     | semanas | ✔️    |   |
+|Christiano da Silva|  Histórias de usuário  |     |semanas | ✔️      |                 |
+| Gabriel Henrique| Personas 1  |         | semanas | ✔️      |       |
+| Christiano da Silva| Requisitos Funcionais  |         | semanas | ✔️      |       |
+| Christiano da Silva| Requisitos Não Funcionais  |         |semanas  | ✔️      |       |
+| Luis Gustavo | Regras de Negócio  |   05/02/2025      | 1 semana | ✔️      |  11/02/2025     |
+| Kauan Maia | Diagrama de Caso de Uso  |        |  semanas | ✔️      |      |
+>>>>>>> f2c674b6b66dd4b82134462582ff8434fc0b97f5
 
 
 #### Sprint 2
@@ -132,7 +145,11 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2025-1-p3-tidai-Grupo2/tree/main                         |
 | Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2025-1-p3-tidai-Grupo2/tree/main                          |
 | Projeto de interface                | Figma                              | https://www.figma.com/design/HOKK8Z1TzB6bPkutBZjCTI/Untitled?node-id=1-2965&t=PMBLbvdI94FArAoD-0                    |
+<<<<<<< HEAD
 | Projeto de interface - Userflow     | Figma                             | https://www.figma.com/proto/qX1Zd1OEn1wMz0MxEkUkeb/TIADAI-_-Templates?node-id=89-434&t=hhgH5FbL4xym4Rt3-1  
+=======
+| Projeto de interface - Userflow     | Mockplus                             | https://rp.mockplus.com/run/TwvtDUYRSm/i88ReQcp8lcps=expand&rps=expand&nav=1&ha=0&la=0&fc=1&dt=iphoneX&out=0&rt=1&as=true  
+>>>>>>> f2c674b6b66dd4b82134462582ff8434fc0b97f5
 | Gerenciamento do projeto            | GitHub Projects                    |https://github.com/ICEI-PUC-Minas-PCO-ADS-TI/2025-1-p3-tidai-Grupo2/projects?query=is%3Aopen                          |
 | Hospedagem                          | Azure                           | http://....                            |
  

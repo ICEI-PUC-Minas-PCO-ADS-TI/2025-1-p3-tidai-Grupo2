@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Luiz\\Desktop\\Trabalho Interdisciplinar 3\\2025-1-p3-tidai-Grupo2\\",
   "Documents": [
     {
@@ -35,10 +36,15 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\back\\db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\Luiz\\Desktop\\Nova pasta\\2025-1-p3-tidai-Grupo2\\",
+  "Documents": [],
+>>>>>>> f2c674b6b66dd4b82134462582ff8434fc0b97f5
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -133,6 +139,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> f2c674b6b66dd4b82134462582ff8434fc0b97f5
     }
   ]
 }
