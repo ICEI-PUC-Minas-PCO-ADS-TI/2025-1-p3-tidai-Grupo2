@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarefa-index",
+      "appliesTo": "src/back/index.html",
+      "type": "launch"
+    }
+  ]
+}

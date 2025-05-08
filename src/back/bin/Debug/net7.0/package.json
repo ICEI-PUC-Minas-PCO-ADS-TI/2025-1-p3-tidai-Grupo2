@@ -9,17 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.15.0",
-    "axios": "^1.4.0",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
-    "react-hook-form": "^7.45.4",
-    "date-fns": "^2.30.0",
     "@tanstack/react-query": "^4.29.0",
-    "zod": "^3.22.0",
-    "clsx": "^2.0.0"
+    "axios": "^1.4.0",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "react": "^18.2.0",
+    "react-csharp-mvc": "file:",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.4",
+    "react-router-dom": "^6.15.0",
+    "zod": "^3.22.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

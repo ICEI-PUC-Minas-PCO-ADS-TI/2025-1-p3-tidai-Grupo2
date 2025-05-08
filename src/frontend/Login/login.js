@@ -1,3 +1,8 @@
+const users = [
+    { email: "admin@cashwise.com", password: "admin123", role: "admin" },
+    { email: "usuario@cashwise.com", password: "user123", role: "user" }
+];
+
 function validateLogin() {
     const email = document.getElementById('email')?.value.trim();
     const password = document.getElementById('password')?.value;
@@ -13,14 +18,26 @@ function validateLogin() {
         return false;
     }
 
+    const user = users.find(u => u.email === email && u.password === password);
+    if (!user) {
+        alert("Email ou senha incorretos.");
+        return false;
+    }
+
+    // Armazena o tipo de usuário no localStorage
+    localStorage.setItem("userRole", user.role);
+
+    // Redireciona para a tela correta
+    if (user.role === "admin") {
+        window.location.href = "../Alterar Administrador/AlterarA.HTML"; // Caminho da tela do admin
+    } else {
+        window.location.href = "../Página do Usuario/Usuario.html"; // Caminho da tela do usuário
+    }
+
     return true;
 }
 
 document.getElementById('login-form')?.addEventListener('submit', function(event) {
-    event.preventDefault(); 
-
-    if (validateLogin()) {
-
-        window.location.href = "../Home/Home.html";
-    }
+    event.preventDefault();
+    validateLogin();
 });
