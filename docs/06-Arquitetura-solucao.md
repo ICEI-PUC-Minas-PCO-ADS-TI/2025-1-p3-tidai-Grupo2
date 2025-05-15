@@ -102,10 +102,10 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
-| Front-end      | HTML + CSS + JS + React |
-| Back-end       | Node.js         |
+| Front-end      | HTML + CSS + JS |
+| Back-end       | C#              |
 | SGBD           | MySQL           |
-| Deploy         | Vercel          |
+| Deploy         | AWS             |
 
 
 ## Hospedagem
