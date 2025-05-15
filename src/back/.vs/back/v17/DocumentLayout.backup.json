@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Luiz\\Desktop\\Trabalho Interdisciplinar 3\\2025-1-p3-tidai-Grupo2\\src\\back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19E89D00-B300-19DB-B32E-514343ACF682}|YourProject.csproj|c:\\users\\luiz\\desktop\\trabalho interdisciplinar 3\\2025-1-p3-tidai-grupo2\\src\\back\\yourproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19E89D00-B300-19DB-B32E-514343ACF682}|YourProject.csproj|solutionrelative:yourproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "YourProject.csproj",
+              "DocumentMoniker": "C:\\Users\\Luiz\\Desktop\\Trabalho Interdisciplinar 3\\2025-1-p3-tidai-Grupo2\\src\\back\\YourProject.csproj",
+              "RelativeDocumentMoniker": "YourProject.csproj",
+              "ToolTip": "C:\\Users\\Luiz\\Desktop\\Trabalho Interdisciplinar 3\\2025-1-p3-tidai-Grupo2\\src\\back\\YourProject.csproj",
+              "RelativeToolTip": "YourProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T23:22:11.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

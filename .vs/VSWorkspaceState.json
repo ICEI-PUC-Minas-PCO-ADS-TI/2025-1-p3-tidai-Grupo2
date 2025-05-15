@@ -1,17 +1,7 @@
 {
   "ExpandedNodes": [
-<<<<<<< HEAD
-    "",
-    "\\src",
-    "\\src\\back",
-    "\\src\\back\\Controllers",
-    "\\src\\back\\Data",
-    "\\src\\back\\Services"
-  ],
-  "SelectedNode": "\\src\\back\\index.html",
-=======
     ""
   ],
->>>>>>> f2c674b6b66dd4b82134462582ff8434fc0b97f5
+  "SelectedNode": "\\TIADI.sln",
   "PreviewInSolutionExplorer": false
 }
