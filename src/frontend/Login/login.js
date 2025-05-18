@@ -1,3 +1,4 @@
+('*')
 const users = [
     { email: "admin@cashwise.com", password: "admin123", role: "admin" },
     { email: "usuario@cashwise.com", password: "user123", role: "user" }

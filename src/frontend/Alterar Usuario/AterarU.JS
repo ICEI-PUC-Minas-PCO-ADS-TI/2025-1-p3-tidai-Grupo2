@@ -1,3 +1,4 @@
+('*')
 document.addEventListener("DOMContentLoaded", () => {
     const profileImage = document.getElementById("profileImage");
     const imageInput = document.getElementById("imageInput");

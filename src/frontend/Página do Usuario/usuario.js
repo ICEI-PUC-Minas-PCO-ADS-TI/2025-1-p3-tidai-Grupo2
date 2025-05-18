@@ -1,3 +1,4 @@
+('*')
 document.addEventListener('DOMContentLoaded', function () {
             const loginForm = document.querySelector('.login-section');
             const dashboard = document.querySelector('.dashboard');

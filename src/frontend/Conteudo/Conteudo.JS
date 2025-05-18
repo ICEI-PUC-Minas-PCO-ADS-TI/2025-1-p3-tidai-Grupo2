@@ -1,3 +1,4 @@
+('*')
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('contentForm');
   const grid = document.getElementById('cardsGrid');

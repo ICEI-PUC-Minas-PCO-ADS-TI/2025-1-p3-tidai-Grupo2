@@ -1,3 +1,4 @@
+('*')
 document.addEventListener("DOMContentLoaded", function () {
     const modal = document.getElementById("modal");
     const modalContent = document.querySelector(".modal-content");

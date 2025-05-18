@@ -58,7 +58,7 @@ header nav ul li a {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
 }
 
 header nav ul li a:hover {
@@ -77,7 +77,7 @@ header nav ul li a.login-button {
   cursor: pointer;
   border-radius: 5px;
   font-size: 16px;
-  transition: background 0.3s ease;
+  transition:  0.3s ease;
   text-decoration: none;
   display: inline-block;
 }
@@ -258,5 +258,3 @@ footer .footer-section {
   flex: 1;
   padding: 10px;
 }
-
-footer

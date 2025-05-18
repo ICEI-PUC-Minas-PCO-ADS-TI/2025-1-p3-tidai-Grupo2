@@ -1,3 +1,4 @@
+('*')
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("manageLogins").addEventListener("click", () => {
         alert("Gerenciamento de logins em desenvolvimento...");

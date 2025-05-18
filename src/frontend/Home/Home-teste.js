@@ -1,3 +1,8 @@
+('*')
+document.querySelector('a[href="#contato"]').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementById('contato').scrollIntoView({ behavior: 'smooth' });
+    });
 // document.addEventListener('DOMContentLoaded', function () {
 //     const prevButton = document.querySelector('.prev');
 //     const nextButton = document.querySelector('.next');
