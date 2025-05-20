@@ -10,7 +10,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Fluxo de usuário (user flow) é uma técnica que permite ao desenvolvedor mapear todo o fluxo de navegação do usuário na aplicação. Essa técnica serve para alinhar os caminhos e as possíveis ações que o usuário pode realizar junto com os membros da equipe.
 
-![Userflow](images/userflowTotal.png)
+![Userflow](images/UserflowCompleto.png)
 
 
 > **Links úteis**:
@@ -30,14 +30,14 @@ O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem, intername
 
 São protótipos usados no design de interface para sugerir a estrutura de um site web e seu relacionamento entre suas páginas. Um wireframe web é uma ilustração que mostra o layout dos elementos fundamentais na interface.
 
-![Home](images/wireframes/home.png)
-![Cadastro](images/wireframes/cadastro.png)
-![Login](images/wireframes/login.png)
-![Perfil](images/wireframes/perfil.png)
-![Conteúdo](images/wireframes/conteudo.png)
-![Alterar perfil](images/wireframes/alterarPerfil.png)
-![Dashboard](images/wireframes/Dashboard.png)
-![Perfil adm](images/wireframes/perfilADM.png)
+![Home](images/wireframes/Home1.png)
+![Cadastro](images/wireframes/Cadastro1.png)
+![Login](images/wireframes/Login1.png)
+![Perfil](images/wireframes/PerfilUser1.png)
+![Conteúdo](images/wireframes/Conteudo1.png)
+![Alterar perfil](images/wireframes/AlterarPerfil1.png)
+![Dashboard](images/wireframes/UserInfo1.png)
+![Perfil adm](images/wireframes/PerfilADM1.png)
  
  
 ## Interface do sistema
